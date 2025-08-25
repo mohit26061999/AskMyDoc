@@ -1,0 +1,8 @@
+streamlit
+unstructured[all]
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+faiss-cpu
+tiktoken
