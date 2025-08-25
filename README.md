@@ -1,2 +1,24 @@
-# AskMyDoc
-AskMyDoc is an AI-powered document assistant that enables users to upload PDF, Word, or TXT files and interact with them conversationally. Built with Streamlit, FAISS, and Ollama LLMs using RAG, it extracts content, generates embeddings, and provides accurate, context-aware answers to unlimited user queries.
+# 📄 AskMyDoc – AI-Powered Document Q&A
+
+AskMyDoc is an AI-powered assistant that allows users to upload PDF, Word, or TXT files and chat with them. 
+Using Retrieval-Augmented Generation (RAG), FAISS, and Ollama LLMs, it provides accurate, context-aware answers from your documents.
+
+## 🚀 Features
+- Upload PDF, DOCX, TXT
+- Extract text with Unstructured
+- Split text into chunks for embeddings
+- Store & retrieve with FAISS
+- Ask unlimited questions in a chat interface
+- Powered by Ollama LLMs
+
+## 🛠️ Tech Stack
+- **Frontend/UI**: Streamlit
+- **LLM**: Ollama (LLaMA 3)
+- **Vector DB**: FAISS
+- **Text Processing**: LangChain + Unstructured
+
+## 📦 Installation
+```bash
+git clone https://github.com/mohit26061999/AskMyDoc.git
+cd AskMyDoc
+pip install -r requirements.txt
