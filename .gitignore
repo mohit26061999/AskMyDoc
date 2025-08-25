@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.env
+venv/
+.venv/
+
+# Streamlit & temp files
+.streamlit/
+*.log
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Vectorstore / FAISS index
+vectorstore/
+*.faiss
+*.npy
+
+# IDE files
+.vscode/
+.idea/
